@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jessica Silva | Desenvolvedora Full Stack Java Júnior</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav><div class="wrap"><b>JS.</b><div>
+<a href="#sobre" data-en="About">Sobre</a><a href="#projetos" data-en="Projects">Projetos</a><a href="#skills" data-en="Skills">Habilidades</a><a href="#trajetoria" data-en="Journey">Trajetória</a><a href="#certificados" data-en="Certificates">Certificados</a><a href="#contato" data-en="Contact">Contato</a>
+<button id="lang" type="button" aria-label="Switch language / Trocar idioma">EN</button></div></div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <div class="avatar" id="avatar"><span>JS</span></div>
+    <h1 aria-label="Jessica Silva"><span><i>Jessica</i></span><span><i>Silva</i></span></h1>
+    <p class="role" data-en="Junior Full Stack Java developer, studying Systems Analysis and Development.">Desenvolvedora Full Stack Java júnior, estudante de Análise e Desenvolvimento de Sistemas.</p>
+    <div class="btns"><a class="btn main" href="#projetos" data-en="See projects">Ver projetos</a><a class="btn" href="#contato" data-en="Get in touch">Falar comigo</a></div>
+  </div>
+  <div class="term" role="img" aria-label="API response with Jessica's professional summary">
+    <header><i></i><i></i><i></i><span>GET /jessica</span></header>
+    <pre id="out"></pre>
+  </div>
+</div></header>
+
+<main>
+<section id="sobre"><div class="wrap">
+  <h2 class="rv" data-en="From cargo flow to code flow">Do fluxo de cargas ao fluxo de código</h2>
+  <div class="about">
+    <div class="rv">
+      <p data-en="I study Systems Analysis and Development at Uninter and complement it with the Full Stack Java program at EBAC. I apply what I learn in projects: layered REST APIs with Spring Boot and web interfaces with React and TypeScript.">Estudo Análise e Desenvolvimento de Sistemas na Uninter e complemento com a formação Full Stack Java da EBAC. Aplico o que aprendo em projetos: APIs REST com Spring Boot em camadas e interfaces web com React e TypeScript.</p>
+      <p data-en="Before programming, I spent over 2 years in administrative management and logistics. That gave me organization, data analysis and attention to detail, which I now use to write clear, well-structured code.">Antes de programar, passei mais de 2 anos em gestão administrativa e logística. Trago dessa época organização, análise de dados e atenção a detalhes, que hoje uso para escrever código claro e bem estruturado.</p>
+      <p data-en="I'm looking for an internship or junior position to grow in development and systems analysis.">Busco um estágio ou uma posição júnior para crescer em desenvolvimento e análise de sistemas.</p>
+    </div>
+    <div class="facts rv">
+      <div><b data-en="2+ years">+2 anos</b><small data-en="in administrative management and logistics">em gestão administrativa e logística</small></div>
+      <div><b data-en="100+ modules">100+ módulos</b><small data-en="hands-on, in Full Stack Java (EBAC)">práticos no Full Stack Java (EBAC)</small></div>
+      <div><b>Cajamar, SP</b><small data-en="open to internship or junior roles">disponível para estágio ou júnior</small></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="projetos"><div class="wrap">
+  <h2 class="rv" data-en="Projects">Projetos</h2>
+  <div class="projects">
+    <article class="card rv">
+      <h3 data-en="Customer Microservice">Microserviço de Clientes</h3>
+      <p data-en="RESTful API to register, query and update customers, with responsibilities split into layers.">API RESTful para cadastrar, consultar e atualizar clientes, com responsabilidades separadas em camadas.</p>
+      <div class="layers"><span>controller</span><span>service</span><span>repository</span></div>
+      <ul class="tags"><li>Java 17</li><li>Spring Boot 3</li><li>Spring Data JPA</li><li>H2</li><li>Maven</li><li>Lombok</li></ul>
+      <div class="links"><a href="#" data-link="cliente">GitHub</a></div>
+    </article>
+    <article class="card rv">
+      <h3 data-en="efood: food delivery">efood: delivery de gastronomia</h3>
+      <p data-en="Platform with restaurants by category, dynamic routes per restaurant profile and a custom menu. Faithful to the Figma prototype and responsive on desktop, tablet and phone.">Plataforma com restaurantes por categoria, rotas dinâmicas por perfil e cardápio personalizado. Fiel ao protótipo do Figma e responsiva em desktop, tablet e celular.</p>
+      <ul class="tags"><li>React</li><li>TypeScript</li><li>Vite</li><li>Styled Components</li><li>React Router DOM</li></ul>
+      <div class="links"><a href="#" data-link="efood-gh">GitHub</a><a href="#" data-link="efood-demo" data-en="Live demo">Ver online</a></div>
+    </article>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2 class="rv" data-en="Skills">Habilidades</h2>
+  <div class="skills">
+    <div class="rv"><h3 data-en="Languages">Linguagens</h3><ul class="tags"><li>Java</li><li>JavaScript ES6+</li><li>TypeScript</li><li>Python</li><li>SQL</li></ul></div>
+    <div class="rv"><h3>Back-end</h3><ul class="tags"><li>Spring Boot</li><li>Spring MVC</li><li>Spring Security</li><li>JPA/Hibernate</li><li>JDBC</li><li>RESTful APIs</li><li>JUnit</li></ul></div>
+    <div class="rv"><h3>Front-end</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>React</li><li>Node.js</li></ul></div>
+    <div class="rv"><h3 data-en="Best practices">Boas práticas</h3><ul class="tags"><li>OOP</li><li>SOLID</li><li>Design Patterns</li><li>Lambdas</li><li>Threads</li><li data-en="Exception handling">Tratamento de exceções</li></ul></div>
+    <div class="rv"><h3 data-en="Tools">Ferramentas</h3><ul class="tags"><li>Git/GitHub</li><li>Maven</li><li>Figma</li></ul></div>
+    <div class="rv"><h3 data-en="Languages spoken">Idiomas</h3><ul class="tags"><li data-en="English: basic, reading technical docs">Inglês básico: leitura de documentação técnica</li></ul></div>
+  </div>
+</div></section>
+
+<section id="trajetoria"><div class="wrap">
+  <h2 class="rv" data-en="Journey">Trajetória</h2>
+  <div class="track" id="track">
+    <div class="fill" id="fill"></div>
+    <div class="stop"><time>2013–2015</time><h3 data-en="Computing Technician">Técnico em Computação</h3><p data-en="Fast Comp. First contact with technology.">Fast Comp. Primeiro contato com tecnologia.</p></div>
+    <div class="stop"><time>2019–2020</time><h3 data-en="Administration Technician">Técnico em Administração</h3><p>ETEC Gino Rezaghi.</p></div>
+    <div class="stop"><time data-en="Aug 2023 – Mar 2026">Ago 2023 – Mar 2026</time><h3 data-en="Senior Transport Administrative Analyst">Analista Administrativo de Transportes Sênior</h3>
+      <ul><li data-en="Cash flow, accounts payable/receivable and bank reconciliation.">Fluxo de caixa, contas a pagar/receber e conciliação bancária.</li><li data-en="Management reports and profitability and performance KPIs.">Relatórios gerenciais e KPIs de rentabilidade e desempenho.</li><li data-en="Audit of invoices and tax documents (CT-e, MDF-e).">Auditoria de faturas e documentos fiscais (CT-e, MDF-e).</li></ul></div>
+    <div class="stop"><time>2024–2026</time><h3>Full Stack Java</h3><p data-en="EBAC, 12 months: Java, OOP, SOLID, JPA/Hibernate and REST APIs with Spring Boot.">EBAC, 12 meses: Java, POO, SOLID, JPA/Hibernate e APIs REST com Spring Boot.</p></div>
+    <div class="stop"><time>2025–2026</time><h3 data-en="Python Back-end Development">Desenvolvimento Back-end Python</h3><p data-en="Alura. Python, Flask APIs, automated testing, security and deployment.">Alura. Python, APIs com Flask, testes automatizados, segurança e deploy.</p></div>
+    <div class="stop"><time>2026–2029</time><h3 data-en="Systems Analysis and Development">Análise e Desenvolvimento de Sistemas</h3><p data-en="Uninter, in progress. Data structures, modeling, software engineering, relational and NoSQL databases, cloud and DevOps.">Uninter, em andamento. Estruturas de dados, modelagem, engenharia de software, bancos relacionais e NoSQL, nuvem e DevOps.</p></div>
+  </div>
+</div></section>
+
+<section id="certificados"><div class="wrap">
+  <h2 class="rv" data-en="Courses and certificates">Cursos e certificados</h2>
+  <div class="certs">
+    <article class="card cert rv"><h3>Desenvolvimento Full Stack Java</h3><small>EBAC · 2024–2026</small></article>
+    <article class="card cert rv"><h3 data-en="Python Back-end Development">Desenvolvimento Back-end Python</h3><small>Alura · 2025–2026</small></article>
+    <article class="card cert rv"><h3 data-en="Artificial Intelligence">Inteligência Artificial</h3><small>EBAC · 2026</small></article>
+    <article class="card cert rv"><h3 data-en="IT from Zero to Pro">TI do Zero ao Pro</h3><small>EBAC · 2024</small></article>
+    <article class="card cert rv"><h3 data-en="Systems Analysis and Development">Análise e Desenvolvimento de Sistemas</h3><small>Uninter · 2026–2029</small><em data-en="In progress">Em andamento</em></article>
+    <article class="card cert rv"><h3 data-en="Programming and Software Development">Programação e Desenvolvimento de Software</h3><small>Uninter · 2026–2027</small><em data-en="In progress">Em andamento</em></article>
+  </div>
+</div></section>
+
+<section id="contato"><div class="wrap">
+  <div class="contact rv">
+    <h2 data-en="Let's talk?">Vamos conversar?</h2>
+    <p data-en="I'm looking for my first development team. Write to me and I'll reply.">Estou procurando meu primeiro time de desenvolvimento. Me escreva e eu respondo.</p>
+    <div class="btns">
+      <a class="btn main" href="mailto:jessicaasilva.014@gmail.com">jessicaasilva.014@gmail.com</a>
+      <a class="btn" href="tel:+5511975606039">(11) 97560-6039</a>
+      <a class="btn" href="#" data-link="linkedin">LinkedIn</a>
+      <a class="btn" href="#" data-link="github">GitHub</a>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer>Jessica Silva · Cajamar, SP</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
